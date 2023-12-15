@@ -37,7 +37,7 @@ The team has leveraged the latest advancements in Deep Learning and Generative A
 4. **Text Generation**:
    - Feeding the compiled prompt to our fine-tuned Llama2 model to produce the final text content for tweets.
 
-
+### Config files of Fine-tuned Llama2 ---> https://drive.google.com/file/d/1ly94C5o7iPq5qwzF7FVECfE283V2Qwk/view?usp=sharing
 ## Results
 ### Task 1
 
