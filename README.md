@@ -27,17 +27,13 @@ The team has leveraged the latest advancements in Deep Learning and Generative A
 
      
 ### Task 2: Content Generation (Content Simulation)
-
 1. **Media Caption Generation**:
    - Utilizing BLIP-2 to generate captions for various media types such as Images, Videos, and GIF thumbnails.
-   
 2. **Text Extraction from Media**:
    - Employing PaddleOCR for extracting text present on Images or Video thumbnails, enhancing content contextualization.
-   
 3. **Data Preparation**:
    - Merging generated captions and extracted text with tweet metadata (including company name, username, and timestamp) from our dataset.
    - Creating an Instruction dataset where all data components are used as a single prompt during the inference process.
-   
 4. **Text Generation**:
    - Feeding the compiled prompt to our fine-tuned Llama2 model to produce the final text content for tweets.
 
