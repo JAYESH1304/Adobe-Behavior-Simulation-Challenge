@@ -15,16 +15,30 @@ The team has leveraged the latest advancements in Deep Learning and Generative A
 
 ## How to Run
 
-### Task 1: Predicting number of likes (Behavior Simulation)
+### Task 1: Predicting Number of Likes (Behavior Simulation)
 1. **Media Caption Generation**:
-   - Use BLIP-2 to generate captions for media content (images, Videos, GIF thumbnails).
+   - Utilize BLIP-2 for generating captions for media content, including Images, Videos, and GIF thumbnails.
 2. **Data Preparation**:
-   - Combine the generated captions with tweet metadata from the original dataset.
-   - Form an instruction dataset where all data is used as a single prompt during inference.
+   - Integrate these captions with tweet metadata (text, company, username, timestamp) from dataset.
+   - Create an Instruction dataset, combining all data as a single prompt for inference.
 3. **Classification and Regression**:
-   - Use DistilBERT classifier to predict the engagement bucket (range of likes) based on the combined prompt.
-   - Apply regression models on the predicted bucket to estimate the specific number of likes for the tweet.
+   - Employ DistilBERT for predicting engagement levels (like ranges or Buckets) based on the combined prompt.
+   - Implement regression models within the predicted engagement bucket to estimate the specific number of likes for each tweet.
 
+     
+### Task 2: Content Generation (Content Simulation)
 
+1. **Media Caption Generation**:
+   - Utilizing BLIP-2 to generate captions for various media types such as Images, Videos, and GIF thumbnails.
+   
+2. **Text Extraction from Media**:
+   - Employing PaddleOCR for extracting text present on Images or Video thumbnails, enhancing content contextualization.
+   
+3. **Data Preparation**:
+   - Merging generated captions and extracted text with tweet metadata (including company name, username, and timestamp) from our dataset.
+   - Creating an Instruction dataset where all data components are used as a single prompt during the inference process.
+   
+4. **Text Generation**:
+   - Feeding the compiled prompt to our fine-tuned Llama2 model to produce the final text content for tweets.
 
 
