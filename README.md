@@ -38,3 +38,9 @@ The team has leveraged the latest advancements in Deep Learning and Generative A
    - Feeding the compiled prompt to our fine-tuned Llama2 model to produce the final text content for tweets.
 
 
+## Results
+### Task 1
+
+
+### Task 2:
+
