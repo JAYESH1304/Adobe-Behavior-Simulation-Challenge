@@ -13,7 +13,18 @@ User engagement on Twitter is quantified by metrics like user likes, retweets, c
 
 The team has leveraged the latest advancements in Deep Learning and Generative AI to tackle the above two tasks.
 
-## How to run
+## How to Run
+
+### Task 1: Predicting number of likes (Behavior Simulation)
+1. **Media Caption Generation**:
+   - Use BLIP-2 to generate captions for media content (images, Videos, GIF thumbnails).
+2. **Data Preparation**:
+   - Combine the generated captions with tweet metadata from the original dataset.
+   - Form an instruction dataset where all data is used as a single prompt during inference.
+3. **Classification and Regression**:
+   - Use DistilBERT classifier to predict the engagement bucket (range of likes) based on the combined prompt.
+   - Apply regression models on the predicted bucket to estimate the specific number of likes for the tweet.
+
 
 
 
