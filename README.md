@@ -39,9 +39,5 @@ The team has leveraged the latest advancements in Deep Learning and Generative A
 
 ### Config files of Fine-tuned Llama2---> https://drive.google.com/drive/folders/1zWI5dfHBm5Ytf8OJxKqazWytOT_OvxVD?usp=sharing
 
-## Results
-### Task 1
 
-
-### Task 2:
 
