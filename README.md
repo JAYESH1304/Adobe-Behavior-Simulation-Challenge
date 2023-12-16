@@ -13,7 +13,7 @@ User engagement on Twitter is quantified by metrics like user likes, retweets, c
 
 The team has leveraged the latest advancements in Deep Learning and Generative AI to tackle the above two tasks.
 
-## How to Run
+## Our Approach
 
 ### Task 1: Predicting Number of Likes (Behavior Simulation)
 1. **Media Caption Generation**:
@@ -24,6 +24,10 @@ The team has leveraged the latest advancements in Deep Learning and Generative A
 3. **Classification and Regression**:
    - Employ DistilBERT for predicting engagement levels (like ranges or Buckets) based on the combined prompt.
    - Implement regression models within the predicted engagement bucket to estimate the specific number of likes for each tweet.
+
+  
+![flow1](https://github.com/JAYESH1304/Adobe-Behavior-Simulation-Challenge/assets/95133511/456c595b-688b-4115-8674-567dd2ad05df)
+
 
      
 ### Task 2: Content Generation (Content Simulation)
@@ -37,7 +41,11 @@ The team has leveraged the latest advancements in Deep Learning and Generative A
 4. **Text Generation**:
    - Feeding the compiled prompt to our fine-tuned Llama2 model to produce the final text content for tweets.
 
-### Config files of Fine-tuned Llama2---> https://drive.google.com/drive/folders/1zWI5dfHBm5Ytf8OJxKqazWytOT_OvxVD?usp=sharing
+     
+![flow2](https://github.com/JAYESH1304/Adobe-Behavior-Simulation-Challenge/assets/95133511/f5492d15-77c9-484c-8a30-cf9435457216)
+
+
+#### Fine-tuned LLaMa2 config. files : [click here](https://drive.google.com/drive/folders/1zWI5dfHBm5Ytf8OJxKqazWytOT_OvxVD?usp=sharing)
 
 
 
