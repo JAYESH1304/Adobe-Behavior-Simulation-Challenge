@@ -1,4 +1,4 @@
-# Regression Task Approach README
+# Regression Task Approach 
 
 ## Overview
 This repository contains a sequence of Jupyter notebooks designed to perform a regression task on a set of data with the goal of predicting 'likes' on media based on captions generated from the media content. The process involves generating captions using the Blip2 model, creating instructional data from these captions, classifying the data into buckets, and then performing regression on each classified bucket.
