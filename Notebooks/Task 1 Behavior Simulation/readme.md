@@ -16,7 +16,7 @@ This repository contains a sequence of Jupyter notebooks designed to perform a r
 - **Outputs**: Captions and associated IDs for each media item.
 
 ### 2. Making Instruction Data for Task 1 (`making-instruction-data-for-task1.ipynb`)
-- **Purpose**: Creates a detailed prompt for each input item, combining the generated captions with additional information like username, inferred company, date, and time.
+- **Purpose**: Creates a detailed prompt for each input item, combining the generated captions with additional information like content,username, inferred company, date, and time.
 - **Outputs**: Instructional data prompts ready for further processing.
 
 ### 3. Training and Inference with DistilBERT (`training-and-inference-distilbert.ipynb`)
