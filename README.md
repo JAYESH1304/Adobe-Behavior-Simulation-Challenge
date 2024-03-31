@@ -39,7 +39,7 @@ The team has leveraged the latest advancements in Deep Learning and Generative A
    - Merging generated captions and extracted text with tweet metadata (including company name, username, and timestamp) from our dataset.
    - Creating an Instruction dataset where all data components are used as a single prompt during the inference process.
 4. **Text Generation**:
-   - Feeding the compiled prompt to our fine-tuned Llama2 model to produce the final text content for tweets.
+   - Feeding the final compiled prompt to our fine-tuned Llama2 model to produce the final text content for tweets.
 
      
 ![flow2](https://github.com/JAYESH1304/Adobe-Behavior-Simulation-Challenge/assets/95133511/f5492d15-77c9-484c-8a30-cf9435457216)
